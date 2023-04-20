@@ -42,6 +42,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E0F272929F189B100A2CA7A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8EECB86329F187B600F3D6C3 /* Main.storyboard */,
+				8EECB86829F187B700F3D6C3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8E0F272A29F189DB00A2CA7A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8EECB85D29F187B600F3D6C3 /* AppDelegate.swift */,
+				8EECB85F29F187B600F3D6C3 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8E0F272B29F189E100A2CA7A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EECB86129F187B600F3D6C3 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		8EECB85129F187B600F3D6C3 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +89,10 @@
 		8EECB85C29F187B600F3D6C3 /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8EECB85D29F187B600F3D6C3 /* AppDelegate.swift */,
-				8EECB85F29F187B600F3D6C3 /* SceneDelegate.swift */,
-				8EECB86129F187B600F3D6C3 /* ViewController.swift */,
-				8EECB86329F187B600F3D6C3 /* Main.storyboard */,
+				8E0F272A29F189DB00A2CA7A /* Delegates */,
+				8E0F272B29F189E100A2CA7A /* View Controllers */,
+				8E0F272929F189B100A2CA7A /* Storyboards */,
 				8EECB86629F187B700F3D6C3 /* Assets.xcassets */,
-				8EECB86829F187B700F3D6C3 /* LaunchScreen.storyboard */,
 				8EECB86B29F187B700F3D6C3 /* Info.plist */,
 			);
 			path = RxSwiftDemo;
@@ -88,7 +112,6 @@
 				26F33DAF663EB33083719C3D /* Pods-RxSwiftDemo.debug.xcconfig */,
 				C13A9C2BEBF714B585A8B335 /* Pods-RxSwiftDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
